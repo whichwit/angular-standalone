@@ -4,7 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Required Modifications
 
-Change `baseHref` in `angular.json` to reference repository name
+- Change `servePath` in `angular.json` so `ng serve` can mimic the added base
+- Change `<base href="/angular-standalone/">` to repository name in `index.html` 
 
 
 

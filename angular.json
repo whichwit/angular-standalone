@@ -67,8 +67,7 @@
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
-              "namedChunks": true,
-              "baseHref": "angular-standalone"
+              "namedChunks": true
             }
           },
           "defaultConfiguration": "production"
@@ -80,7 +79,8 @@
               "browserTarget": "angular-standalone:build:production"
             },
             "development": {
-              "browserTarget": "angular-standalone:build:development"
+              "browserTarget": "angular-standalone:build:development",
+              "servePath": "angular-standalone"
             }
           },
           "defaultConfiguration": "development"
