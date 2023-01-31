@@ -26,7 +26,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist",
-            "index": "src/index.html",
+            "index": "src/404.html",
             "main": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -58,8 +58,7 @@
                   "maximumError": "4kb"
                 }
               ],
-              "outputHashing": "all",
-              "baseHref": "https://whichwit.github.io/angular-standalone/"
+              "outputHashing": "all"
             },
             "development": {
               "buildOptimizer": false,
@@ -79,7 +78,8 @@
               "browserTarget": "angular-standalone:build:production"
             },
             "development": {
-              "browserTarget": "angular-standalone:build:development"
+              "browserTarget": "angular-standalone:build:development",
+              "servePath": "angular-standalone"
             }
           },
           "defaultConfiguration": "development"
