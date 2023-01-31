@@ -1,7 +1,14 @@
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { bootstrapApplication } from '@angular/platform-browser';
+import { provideRouter, Route } from '@angular/router';
 
-import { AppModule } from './app/app.module';
+import { RootComponent } from './app/components/root/root.component';
+import { UserListComponent } from './app/components/user-list/user-list.component';
 
-
-platformBrowserDynamic().bootstrapModule(AppModule)
-  .catch(err => console.error(err));
+bootstrapApplication(RootComponent, {
+  providers: [
+    provideRouter([
+      { path: '', redirectTo: 'user-list', pathMatch: 'full' },
+      { path: 'user-list', component: UserListComponent }
+    ]),
+  ]
+});
