@@ -14,7 +14,7 @@ bootstrapApplication(RootComponent, {
     provideRouter([
       { path: '', pathMatch: 'full', redirectTo: 'user-list' },
       { path: 'user-list', component: UserListComponent },
-      { path: '**', pathMatch: 'full', redirectTo: 'user-list' }
+      { path: '**', redirectTo: 'user-list' }
     ]),
     importProvidersFrom(
       // configure NgRx modules
