@@ -6,6 +6,7 @@ import { StoreModule } from '@ngrx/store';
 import { RootComponent } from './app/components/root/root.component';
 import { UserListComponent } from './app/components/user-list/user-list.component';
 import { reducers, metaReducers } from './app/state/reducers';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 bootstrapApplication(RootComponent, {
@@ -16,7 +17,7 @@ bootstrapApplication(RootComponent, {
     ]),
     importProvidersFrom(
       // configure NgRx modules
-      StoreModule.forRoot(reducers, { metaReducers }),
+      StoreModule.forRoot(reducers, { metaReducers }), BrowserAnimationsModule,
       // RouterStoreConnectingModule.forRoot(),
       // StoreDevtoolsModule.instrument(),
       // EffectsModule.forRoot([RouterEffects, AuthEffects]),
