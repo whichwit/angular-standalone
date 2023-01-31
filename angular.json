@@ -58,7 +58,8 @@
                   "maximumError": "4kb"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "/angular-standalone/"
             },
             "development": {
               "buildOptimizer": false,

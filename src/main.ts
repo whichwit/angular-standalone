@@ -12,8 +12,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 bootstrapApplication(RootComponent, {
   providers: [
     provideRouter([
-      { path: '', pathMatch: 'full', redirectTo: 'user-list' },
       { path: 'user-list', component: UserListComponent },
+      { path: '', pathMatch: 'full', redirectTo: 'user-list' },
       { path: '**', redirectTo: 'user-list' }
     ]),
     importProvidersFrom(
