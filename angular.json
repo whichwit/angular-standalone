@@ -18,7 +18,7 @@
           "standalone": true
         }
       },
-      "root": "",
+      "root": ".",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
@@ -59,7 +59,8 @@
                   "maximumError": "4kb"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "angular-standalone"
             },
             "development": {
               "buildOptimizer": false,
