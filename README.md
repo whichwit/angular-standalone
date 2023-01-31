@@ -7,7 +7,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Change `servePath` in `angular.json` so `ng serve` can mimic the added base
 - Change `<base href="/angular-standalone/">` to repository name in `index.html` 
 
+## Features
 
+- [@ngrx/component](https://ngrx.io/guide/component) for easier view management
 
 ## TODO
 - `Warning: /home/le/github.com/angular-standalone/node_modules/ngrx-store-localstorage/fesm2020/ngrx-store-localstorage.mjs depends on 'deepmerge'. CommonJS or AMD dependencies can cause optimization bailouts.

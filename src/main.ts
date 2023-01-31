@@ -1,7 +1,7 @@
 import { importProvidersFrom } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { provideRouter, Route } from '@angular/router';
-import { StoreModule } from '@ngrx/store';
+import { StoreModule, provideStore } from '@ngrx/store';
 
 import { RootComponent } from './app/components/root/root.component';
 import { UserListComponent } from './app/components/user-list/user-list.component';
@@ -18,9 +18,11 @@ bootstrapApplication(RootComponent, {
       { path: '', pathMatch: 'full', redirectTo: 'user-list' },
       { path: '**', redirectTo: 'user-list' }
     ]),
+    provideStore(reducers, { metaReducers }),
     importProvidersFrom(
       // configure NgRx modules
-      StoreModule.forRoot(reducers, { metaReducers }), BrowserAnimationsModule,
+      // StoreModule.forRoot(reducers, { metaReducers }),
+      BrowserAnimationsModule,
       // RouterStoreConnectingModule.forRoot(),
       // StoreDevtoolsModule.instrument(),
       // EffectsModule.forRoot([RouterEffects, AuthEffects]),
