@@ -9,6 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Features
 
+- Initially generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
 - [@ngrx/component](https://ngrx.io/guide/component) for easier view management
 
 ## TODO
