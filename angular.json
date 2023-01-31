@@ -59,8 +59,7 @@
                   "maximumError": "4kb"
                 }
               ],
-              "outputHashing": "all",
-              "baseHref": "angular-standalone"
+              "outputHashing": "all"
             },
             "development": {
               "buildOptimizer": false,
@@ -68,7 +67,8 @@
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
-              "namedChunks": true
+              "namedChunks": true,
+              "baseHref": "angular-standalone"
             }
           },
           "defaultConfiguration": "production"
