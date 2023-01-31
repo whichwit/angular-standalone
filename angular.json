@@ -59,7 +59,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/angular-standalone/"
+              "baseHref": "https://whichwit.github.io/angular-standalone/"
             },
             "development": {
               "buildOptimizer": false,
