@@ -1,6 +1,6 @@
 # Angular Standalone Template
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
+Opininated template repositotry to quickly spin up Angular-based SPA for deployment to GitHub Pages. Minor modifications are required to support sub-repository URL format (`https://<yourname>/githtub.io/<repository>`) utilized by GitHub Pages.
 
 ## Required Modifications
 
@@ -10,6 +10,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Features
 
 - Initially generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
+- NgModule-less setup to leverage now stable Angular Standalone components, among other features introduced in v15.
+- [@ngrx/store](https://ngrx.io/guide/store) for statement management
 - [@ngrx/component](https://ngrx.io/guide/component) for easier view management
 
 ## TODO
