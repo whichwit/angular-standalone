@@ -23,7 +23,7 @@
       },
       "root": ".",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "ii",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser-esbuild",
