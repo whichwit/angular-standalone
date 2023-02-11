@@ -4,12 +4,14 @@ import { bootstrapApplication } from '@angular/platform-browser';
 import { provideRouter, Route } from '@angular/router';
 import { provideStore } from '@ngrx/store';
 import { provideEffects } from '@ngrx/effects';
-
-import { RootComponent } from '@app/components/root/root.component';
-import { UserListComponent } from '@app/components/user-list/user-list.component';
-import { reducers, metaReducers } from '@app/state/reducers';
-import { NotFoundComponent } from '@app/components/not-found/not-found.component';
 import { effects } from '@app/state/effects';
+
+import { RootComponent } from '@app/containers'
+import {
+  UserListComponent,
+  NotFoundComponent,
+} from '@app/components';
+import { reducers, metaReducers } from '@app/state/reducers';
 
 
 bootstrapApplication(RootComponent, {
