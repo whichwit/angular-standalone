@@ -2,7 +2,8 @@ import { Component, importProvidersFrom } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { MatSidenavModule } from '@angular/material/sidenav';
-
+import { Store } from '@ngrx/store';
+import * as fromCore from '@app/state/reducers/core.reducer'
 
 @Component({
   selector: 'app-root',
@@ -12,5 +13,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
   styleUrls: ['./root.component.scss']
 })
 export class RootComponent {
+  topSkip$ = this.store.select(fromCore.topSkip)
 
+  constructor(
+    private readonly store: Store
+  ) { }
 }

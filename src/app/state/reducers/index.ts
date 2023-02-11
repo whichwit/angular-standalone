@@ -7,17 +7,20 @@ import {
   createSelector,
   MetaReducer
 } from '@ngrx/store';
-import * as fromUsers from './users.reducer';
-import * as fromRouter from '@ngrx/router-store';
 import { localStorageSync } from 'ngrx-store-localstorage';
+import * as fromRouter from '@ngrx/router-store';
+import * as fromCore from './core.reducer';
+import * as fromUsers from './users.reducer';
 
 
 export interface State {
+  [fromCore.featureKey]: fromCore.State
   [fromUsers.featureKey]: fromUsers.State
   router: fromRouter.RouterReducerState<any>;
 }
 
 export const reducers: ActionReducerMap<State> = {
+  [fromCore.featureKey]: fromCore.reducer,
   [fromUsers.featureKey]: fromUsers.reducer,
   router: fromRouter.routerReducer,
 };
@@ -83,16 +86,7 @@ export function logger(reducer: ActionReducer<State>): ActionReducer<State> {
 
 export function localStorageSyncReducer(reducer: ActionReducer<State>): ActionReducer<State> {
   return localStorageSync({
-    keys: [fromUsers.featureKey, 'router'],
+    keys: [fromUsers.featureKey, 'router', fromCore.featureKey],
     rehydrate: true
   })(reducer);
 }
-
-/**
- * Router Selectors
- */
-export const {
-  selectCurrentRoute,
-  selectRouteData,
-  selectUrl,
-} = fromRouter.getSelectors();

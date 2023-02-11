@@ -6,7 +6,7 @@
     <a class="item">Help</a>
   </div>
 </div>
-<div class="container">
+<div class="container" [ngStyle]="{'margin-top': topSkip$ | async}">
   <router-outlet></router-outlet>
 </div>
 <!-- <div class="ui vertical menu visible sidebar">
