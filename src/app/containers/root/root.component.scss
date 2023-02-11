@@ -9,3 +9,8 @@
 .container {
     margin: 1em;
 }
+mat-toolbar {
+    display:flex;
+    position: fixed;
+    justify-content: space-between;
+}

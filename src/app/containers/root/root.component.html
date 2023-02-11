@@ -1,14 +1,29 @@
-<div class="ui top fixed menu">
+<!-- <div class="ui top fixed menu">
   <a class="item" [routerLink]="['/user-list']" routerLinkActive="active" >Menu 1</a>
   <a class="item" [routerLink]="['/not-found']" routerLinkActive="active" >Menu 2</a>
   <div class="right menu">
     <a class="item">Sign Up</a>
     <a class="item">Help</a>
   </div>
-</div>
-<div class="container" [ngStyle]="{'margin-top': topSkip$ | async}">
+</div> -->
+<mat-toolbar>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>My App</span>
+  <span class="example-spacer"></span>
+  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>share</mat-icon>
+  </button>
+</mat-toolbar>
+<!-- <div class="container" [ngStyle]="{'margin-top': topSkip$ | async}"> -->
+  <div style="padding-top: 4.5rem">
   <router-outlet></router-outlet>
 </div>
+<!-- </div> -->
 <!-- <div class="ui vertical menu visible sidebar">
   <div class="item">
     <div class="header">Main</div>

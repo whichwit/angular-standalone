@@ -1,0 +1,6 @@
+mat-tab-header {
+    top: 0;
+    z-index: 1000;
+    position: sticky;
+    position: -webkit-sticky; /* macOS/iOS Safari */
+}
