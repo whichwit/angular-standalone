@@ -86,7 +86,7 @@ export function logger(reducer: ActionReducer<State>): ActionReducer<State> {
 
 export function localStorageSyncReducer(reducer: ActionReducer<State>): ActionReducer<State> {
   return localStorageSync({
-    keys: [fromUsers.featureKey, 'router', fromCore.featureKey],
+    keys: [fromUsers.featureKey, fromCore.featureKey],
     rehydrate: true
   })(reducer);
 }
