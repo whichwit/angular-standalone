@@ -24,14 +24,14 @@ export class effects {
     // );
 
 
-    navigated2$ = createEffect(() => this.store.select(fromRouter.selectCurrentRoute).pipe(
-        map(route => route.data['topSkip']),
-        filter(x => !!x),
-        distinctUntilChanged(),
-        tap(x => console.log('d', x)),
-        map(x => CoreActions.setTopSkip({ payload: x }))
-    )//, { dispatch: false }
-    );
+    // navigated2$ = createEffect(() => this.store.select(fromRouter.selectCurrentRoute).pipe(
+    //     map(route => route.data['topSkip']),
+    //     filter(x => !!x),
+    //     distinctUntilChanged(),
+    //     tap(x => console.log('d', x)),
+    //     map(x => CoreActions.setTopSkip({ payload: x }))
+    // )//, { dispatch: false }
+    // );
 
     constructor(
         private readonly actions$: Actions,

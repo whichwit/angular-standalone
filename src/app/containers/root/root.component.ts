@@ -9,7 +9,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 
 @Component({
-  selector: 'app-root',
+  selector: 'ii-root',
   standalone: true,
   imports: [CommonModule,
     RouterOutlet,

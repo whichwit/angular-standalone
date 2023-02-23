@@ -13,15 +13,22 @@ import {
 } from '@app/components';
 import { reducers, metaReducers } from '@app/state/reducers';
 import { provideRouterStore } from '@ngrx/router-store';
+import { AppComponent } from '@app/containers/app.component';
 
 const routes: Route[] = [
-  { path: 'user-list', component: UserListComponent, data: {topSkip: '3em'} },
-  { path: 'not-found', component: NotFoundComponent, data: {topSkip: '5em'} },
-  { path: '', pathMatch: 'full', redirectTo: 'user-list' },
-  { path: '**', redirectTo: 'user-list' }
+  { path: 'not-found', component: NotFoundComponent, data: { topSkip: '5em' } },
+  {
+    path: '',
+    component: RootComponent,
+    children: [
+      { path: '', pathMatch: 'full', redirectTo: 'user-list'},
+      { path: 'user-list', component: UserListComponent, data: { topSkip: '3em' } },
+    ]
+  },
+  { path: '**', redirectTo: 'not-found' }
 ]
 
-bootstrapApplication(RootComponent, {
+bootstrapApplication(AppComponent, {
   providers: [
     provideRouter(routes),
     provideStore(reducers, { metaReducers }),
