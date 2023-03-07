@@ -40,14 +40,14 @@ specifiers:
   tailwindcss: ^3.2.7
   tslib: ^2.3.0
   typescript: ~4.9.4
-  zone.js: ~0.12.0
+  zone.js: ~0.13.0
 
 dependencies:
   '@angular/animations': 15.1.3_@angular+core@15.1.3
   '@angular/cdk': 15.1.3_um5srvgxdjze4pjhzgxkaq5vrm
   '@angular/common': 15.1.3_e5k2npugnvd34secg4d53mkdom
   '@angular/compiler': 15.1.3_@angular+core@15.1.3
-  '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.12.0
+  '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.13.0
   '@angular/forms': 15.1.3_ldllaezapbozgxcjenczigqhsy
   '@angular/material': 15.1.3_yt6tcv4cymxy3nvn3sbjk6ujxy
   '@angular/platform-browser': 15.1.3_bjrq5ug2dzvjea7bcoozclkliu
@@ -61,7 +61,7 @@ dependencies:
   ngrx-store-localstorage: 15.0.0_idq227sczojurhlsb44ugrua24
   rxjs: 7.8.0
   tslib: 2.5.0
-  zone.js: 0.12.0
+  zone.js: 0.13.0
 
 devDependencies:
   '@angular-devkit/build-angular': 15.1.4_j6aqgx26bmtjnzquccpsedavr4
@@ -292,7 +292,7 @@ packages:
     peerDependencies:
       '@angular/core': 15.1.3
     dependencies:
-      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.12.0
+      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.13.0
       tslib: 2.5.0
     dev: false
 
@@ -304,7 +304,7 @@ packages:
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
       '@angular/common': 15.1.3_e5k2npugnvd34secg4d53mkdom
-      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.12.0
+      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.13.0
       rxjs: 7.8.0
       tslib: 2.5.0
     optionalDependencies:
@@ -347,7 +347,7 @@ packages:
       '@angular/core': 15.1.3
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.12.0
+      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.13.0
       rxjs: 7.8.0
       tslib: 2.5.0
     dev: false
@@ -385,10 +385,10 @@ packages:
       '@angular/core':
         optional: true
     dependencies:
-      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.12.0
+      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.13.0
       tslib: 2.5.0
 
-  /@angular/core/15.1.3_rxjs@7.8.0+zone.js@0.12.0:
+  /@angular/core/15.1.3_rxjs@7.8.0+zone.js@0.13.0:
     resolution: {integrity: sha512-rad9OYnaoRnXBztOBXsiD59VvOZTpsvO3sWx6KndytQFceFfkL722bF2l2LARN+R3IWDOwRap46HOtc0O0N+sw==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     peerDependencies:
@@ -397,7 +397,7 @@ packages:
     dependencies:
       rxjs: 7.8.0
       tslib: 2.5.0
-      zone.js: 0.12.0
+      zone.js: 0.13.0
 
   /@angular/forms/15.1.3_ldllaezapbozgxcjenczigqhsy:
     resolution: {integrity: sha512-vEgiZBk3rGGp4tBQHl9EaspEjYh70lkz6/zYreObTbMdCB54bkbl+jn+JbQyFj+TPfukiumtiG3/477vKzYnSg==}
@@ -409,7 +409,7 @@ packages:
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
       '@angular/common': 15.1.3_e5k2npugnvd34secg4d53mkdom
-      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.12.0
+      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.13.0
       '@angular/platform-browser': 15.1.3_bjrq5ug2dzvjea7bcoozclkliu
       rxjs: 7.8.0
       tslib: 2.5.0
@@ -429,7 +429,7 @@ packages:
       '@angular/animations': 15.1.3_@angular+core@15.1.3
       '@angular/cdk': 15.1.3_um5srvgxdjze4pjhzgxkaq5vrm
       '@angular/common': 15.1.3_e5k2npugnvd34secg4d53mkdom
-      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.12.0
+      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.13.0
       '@angular/forms': 15.1.3_ldllaezapbozgxcjenczigqhsy
       '@angular/platform-browser': 15.1.3_bjrq5ug2dzvjea7bcoozclkliu
       '@material/animation': 15.0.0-canary.684e33d25.0
@@ -494,7 +494,7 @@ packages:
     dependencies:
       '@angular/common': 15.1.3_e5k2npugnvd34secg4d53mkdom
       '@angular/compiler': 15.1.3_@angular+core@15.1.3
-      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.12.0
+      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.13.0
       '@angular/platform-browser': 15.1.3_bjrq5ug2dzvjea7bcoozclkliu
       tslib: 2.5.0
     dev: false
@@ -512,7 +512,7 @@ packages:
     dependencies:
       '@angular/animations': 15.1.3_@angular+core@15.1.3
       '@angular/common': 15.1.3_e5k2npugnvd34secg4d53mkdom
-      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.12.0
+      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.13.0
       tslib: 2.5.0
     dev: false
 
@@ -526,7 +526,7 @@ packages:
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
       '@angular/common': 15.1.3_e5k2npugnvd34secg4d53mkdom
-      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.12.0
+      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.13.0
       '@angular/platform-browser': 15.1.3_bjrq5ug2dzvjea7bcoozclkliu
       rxjs: 7.8.0
       tslib: 2.5.0
@@ -2713,7 +2713,7 @@ packages:
       rxjs: ^6.5.3 || ^7.5.0
     dependencies:
       '@angular/common': 15.1.3_e5k2npugnvd34secg4d53mkdom
-      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.12.0
+      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.13.0
       rxjs: 7.8.0
       tslib: 2.5.0
     dev: false
@@ -2725,7 +2725,7 @@ packages:
       '@ngrx/store': 15.2.1
       rxjs: ^6.5.3 || ^7.5.0
     dependencies:
-      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.12.0
+      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.13.0
       '@ngrx/store': 15.2.1_e5k2npugnvd34secg4d53mkdom
       rxjs: 7.8.0
       tslib: 2.5.0
@@ -2738,7 +2738,7 @@ packages:
       '@ngrx/store': 15.2.1
       rxjs: ^6.5.3 || ^7.5.0
     dependencies:
-      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.12.0
+      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.13.0
       '@ngrx/store': 15.2.1_e5k2npugnvd34secg4d53mkdom
       rxjs: 7.8.0
       tslib: 2.5.0
@@ -2754,7 +2754,7 @@ packages:
       rxjs: ^6.5.3 || ^7.5.0
     dependencies:
       '@angular/common': 15.1.3_e5k2npugnvd34secg4d53mkdom
-      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.12.0
+      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.13.0
       '@angular/router': 15.1.3_ldllaezapbozgxcjenczigqhsy
       '@ngrx/store': 15.2.1_e5k2npugnvd34secg4d53mkdom
       rxjs: 7.8.0
@@ -2767,7 +2767,7 @@ packages:
       '@angular/core': ^15.0.0
       rxjs: ^6.5.3 || ^7.5.0
     dependencies:
-      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.12.0
+      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.13.0
       rxjs: 7.8.0
       tslib: 2.5.0
     dev: false
@@ -6542,7 +6542,7 @@ packages:
       '@ngrx/store': ^15.0.0
     dependencies:
       '@angular/common': 15.1.3_e5k2npugnvd34secg4d53mkdom
-      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.12.0
+      '@angular/core': 15.1.3_rxjs@7.8.0+zone.js@0.13.0
       '@ngrx/store': 15.2.1_e5k2npugnvd34secg4d53mkdom
       deepmerge: 4.3.0
       tslib: 2.5.0
@@ -8647,7 +8647,7 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zone.js/0.12.0:
-    resolution: {integrity: sha512-XtC+I5dXU14HrzidAKBNMqneIVUykLEAA1x+v4KVrd6AUPWlwYORF8KgsVqvgdHiKZ4BkxxjvYi/ksEixTPR0Q==}
+  /zone.js/0.13.0:
+    resolution: {integrity: sha512-7m3hNNyswsdoDobCkYNAy5WiUulkMd3+fWaGT9ij6iq3Zr/IwJo4RMCYPSDjT+r7tnPErmY9sZpKhWQ8S5k6XQ==}
     dependencies:
       tslib: 2.5.0
