@@ -28,7 +28,7 @@ specifiers:
   eslint-plugin-import: ^2.27.5
   eslint-plugin-n: ^15.6.1
   eslint-plugin-promise: ^6.1.1
-  jasmine-core: ~4.5.0
+  jasmine-core: ~4.6.0
   karma: ~6.4.0
   karma-chrome-launcher: ~3.1.0
   karma-coverage: ~2.2.0
@@ -76,12 +76,12 @@ devDependencies:
   eslint-plugin-import: 2.27.5_ufewo3pl5nnmz6lltvjrdi2hii
   eslint-plugin-n: 15.6.1_eslint@8.33.0
   eslint-plugin-promise: 6.1.1_eslint@8.33.0
-  jasmine-core: 4.5.0
+  jasmine-core: 4.6.0
   karma: 6.4.1
   karma-chrome-launcher: 3.1.1
   karma-coverage: 2.2.0
   karma-jasmine: 5.1.0_karma@6.4.1
-  karma-jasmine-html-reporter: 2.1.0_uk6l45dlsjldsnfgnal4othgyq
+  karma-jasmine-html-reporter: 2.1.0_vl3unt3t2otf46m2vvwnwo5vau
   postcss: 8.4.21
   tailwindcss: 3.2.7_postcss@8.4.21
   typescript: 4.9.5
@@ -6119,8 +6119,8 @@ packages:
       '@pkgjs/parseargs': 0.11.0
     dev: true
 
-  /jasmine-core/4.5.0:
-    resolution: {integrity: sha512-9PMzyvhtocxb3aXJVOPqBDswdgyAeSB81QnLop4npOpbqnheaTEwPc9ZloQeVswugPManznQBjD8kWDTjlnHuw==}
+  /jasmine-core/4.6.0:
+    resolution: {integrity: sha512-O236+gd0ZXS8YAjFx8xKaJ94/erqUliEkJTDedyE7iHvv4ZVqi+q+8acJxu05/WJDKm512EUNn809In37nWlAQ==}
     dev: true
 
   /jest-worker/27.5.1:
@@ -6240,14 +6240,14 @@ packages:
       - supports-color
     dev: true
 
-  /karma-jasmine-html-reporter/2.1.0_uk6l45dlsjldsnfgnal4othgyq:
+  /karma-jasmine-html-reporter/2.1.0_vl3unt3t2otf46m2vvwnwo5vau:
     resolution: {integrity: sha512-sPQE1+nlsn6Hwb5t+HHwyy0A1FNCVKuL1192b+XNauMYWThz2kweiBVW1DqloRpVvZIJkIoHVB7XRpK78n1xbQ==}
     peerDependencies:
       jasmine-core: ^4.0.0 || ^5.0.0
       karma: ^6.0.0
       karma-jasmine: ^5.0.0
     dependencies:
-      jasmine-core: 4.5.0
+      jasmine-core: 4.6.0
       karma: 6.4.1
       karma-jasmine: 5.1.0_karma@6.4.1
     dev: true
@@ -6258,7 +6258,7 @@ packages:
     peerDependencies:
       karma: ^6.0.0
     dependencies:
-      jasmine-core: 4.5.0
+      jasmine-core: 4.6.0
       karma: 6.4.1
     dev: true
 
