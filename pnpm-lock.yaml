@@ -19,7 +19,7 @@ specifiers:
   '@ngrx/entity': ^15.2.1
   '@ngrx/router-store': ^15.2.1
   '@ngrx/store': ^15.2.1
-  '@types/jasmine': ~4.3.0
+  '@types/jasmine': ~4.6.0
   '@typescript-eslint/eslint-plugin': ^5.50.0
   '@typescript-eslint/parser': ^5.50.0
   autoprefixer: ^10.4.13
@@ -67,7 +67,7 @@ devDependencies:
   '@angular-devkit/build-angular': 16.1.0_jvuadlbykuawqatvluif6ycbi4
   '@angular/cli': 16.1.0
   '@angular/compiler-cli': 16.1.1_iozodhowxnzatizosemofkyo2u
-  '@types/jasmine': 4.3.1
+  '@types/jasmine': 4.6.4
   '@typescript-eslint/eslint-plugin': 5.50.0_go4drrxstycfikanvu45pi4vgq
   '@typescript-eslint/parser': 5.50.0_4vsywjlpuriuw3tl5oq6zy5a64
   autoprefixer: 10.4.13_postcss@8.4.21
@@ -3144,8 +3144,8 @@ packages:
       '@types/node': 18.11.19
     dev: true
 
-  /@types/jasmine/4.3.1:
-    resolution: {integrity: sha512-Vu8l+UGcshYmV1VWwULgnV/2RDbBaO6i2Ptx7nd//oJPIZGhoI1YLST4VKagD2Pq/Bc2/7zvtvhM7F3p4SN7kQ==}
+  /@types/jasmine/4.6.4:
+    resolution: {integrity: sha512-qCw5sVW+ylTnrEhe5kfX4l6MgU9REXIVDa/lWEcvTOUmd+LqDYwyjovDq+Zk9blElaEHOj1URDQ/djEBVRf+pw==}
     dev: true
 
   /@types/json-schema/7.0.11:
